@@ -9,8 +9,6 @@
 #   cd $HOME/go/src/github.com/youtube/vitess/examples/kubernetes/
 #   If you didn't already, run this in that directory:
 #      ./configure.sh
-# - maybe you also need to make a backup bucket:
-#   gsutil mb gs://backup-bucket-$ENV{USER}
 #
 # Run it like this:
 #   gce-up.pl us-east1-d 3
